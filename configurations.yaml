@@ -1,0 +1,39 @@
+#MQTT Informations
+MQTT_Broker : "mqtt.flespi.io"
+MQTT_Port : 80
+Keep_Alive_Interval : 60
+MQTT_Topic : "ETS/#"
+MQTT_username_fake_publisher : "FlespiToken %FLESPITOKEN"
+MQTT_username_listener : "FlespiToken %FLESPITOKEN"
+
+#ESP informations
+numRoom : 1
+room:
+  "1" :
+    numEsp : 3
+    X : 4.
+    Y : 2.6
+    EspCoor:
+      "1":
+        X : 4.
+        Y : 2.6
+      "2":
+        X : 0.
+        Y : 0.
+      "3":
+        X : 0
+        Y : 2.6
+      #"4":
+      #  X : 4.
+      #  Y : 2.6
+
+
+#MYSQL Information
+username : "%USERNAME"
+password : "%PASSWORD"
+host : "127.0.0.1"
+
+#Localization information
+z_max : -75 # max - min = - 95 - ( - 20) = -75
+z_off : -20 # max is -90
+z_parameter: 4
